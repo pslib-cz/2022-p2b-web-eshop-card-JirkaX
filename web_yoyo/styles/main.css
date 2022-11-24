@@ -1,0 +1,128 @@
+@font-face {
+    font-family: "Roboto";
+    src: url(/fonts/Roboto-Light.ttf);
+}
+
+html{
+    background-color: #F8FAFB;
+}
+
+p{
+    font-family: "Roboto", sans-serif;
+}
+.content{
+    margin-top: 10em;
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cards{
+    display: flex;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    position: relative;
+}
+
+
+.card{
+    width: 322px;
+    max-height: 100%;
+    padding: 1em;
+    position: relative;
+}
+
+.card:hover{
+    border: 0.5px solid lightgrey;
+    background-color: white;
+}
+
+.card__flags--sale{
+    position: absolute;
+    color: white;
+    background-color: #d93d3d;
+    font-size: 15px;
+    padding: 0.3125em 0.5em 0.1875em 0.5em;
+    top: 0;
+    left: 0;
+    margin-left: 1.5em;
+    margin-top: 1.5em;
+    font-weight: 700;
+}
+
+.card__flags--percentsale{
+    display: flex;
+    position: absolute;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: #84A1B6;
+    color: white;
+    border-radius: 100%;
+    padding: 1.2em 0.5em 1.2em 0.5em;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 15em;
+    margin-right: 1em;
+}
+
+.card__link{
+    color: black;
+}
+
+.card--nextto{
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.card--info{
+    color: #009901;
+    font-size: 14px;
+    font-weight: 600;
+    padding-top: 0.65em;
+    padding-bottom: 0.1em;
+}
+
+.card__title{    
+}
+
+.card__link{
+    
+}
+
+.card--info{
+    
+}
+
+.card--higherprice{
+    text-decoration: line-through;
+    margin-top: 1.05em;
+}
+
+.card--price{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 0.7em;
+    padding-right: 15%;
+}
+
+.button{
+    background-color: #782E86;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 0.65em 1.875em 0.65em 1.875em;
+    border-radius: 7em;
+}
+
+.infobox__cta{
+    padding-right: 0.2em;
+}
+                     
+.card__footer{
+    font-size: 14px;
+}
